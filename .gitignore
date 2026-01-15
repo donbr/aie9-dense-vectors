@@ -1,0 +1,35 @@
+# Environment and secrets
+**/.env
+.env.local
+.env.*.local
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing/Linting
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Tools
+.mcp.json
+.claude/
+
+# Project-specific
+workspace/
+
+CLAUDE.md
